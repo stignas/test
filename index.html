@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport content="width=device-width, initial-scale=1">
+<style>
+* {
+   box-sizing: border-box;
+ }
+.column {
+ float: left;
+ width: 50%;
+ padding: 10px;
+}
+                                                                  
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+              </style>
+              </head>
+              
+<body>
+              
 <div class="row">
  <div class="column">
 <!-- TradingView Widget BEGIN -->
@@ -13,14 +37,13 @@
   "currencyFilter": "USD,AUD,CAD,EUR,FRF,DEM,ITL,JPY,GBP,NZD"
 }
   </script>
+ </div> <!-- TradingView Widget END -->
 </div>
-</div>
- </div>
-<!-- TradingView Widget END -->
+
+
 
 
 <div class="column">
-<div align="center">
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
@@ -300,7 +323,6 @@
   ]
 }
   </script>
-</div>
 </div>
 </div>
 <!-- TradingView Widget END -->
